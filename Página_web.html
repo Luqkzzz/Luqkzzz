@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Empresa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            background-color: purple;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: black;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .section {
+            padding: 40px;
+        }
+
+        .catalogo, .nosotros, .contacto {
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contacto-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contacto-info img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Empresa</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="inicio" class="section">
+        <h2>¡Bienvenido a Mi Empresa!</h2>
+        <p>Explora nuestra colección de ropa de alta calidad.</p>
+        <!-- Aquí puedes agregar contenido adicional para la sección de inicio -->
+    </section>
+    <section id="productos" class="catalogo section">
+        <h2>Catálogo de Productos</h2>
+        <p>Aquí puedes ver nuestros productos:</p>
+        <!-- Inserta aquí el catálogo de productos -->
+    </section>
+    <section id="nosotros" class="nosotros section">
+        <h2>Nosotros</h2>
+        <p>Conoce más sobre nuestra empresa y nuestro equipo.</p>
+        <!-- Inserta aquí información sobre la empresa y el equipo -->
+    </section>
+    <section id="contacto" class="contacto section">
+        <h2>Contacto</h2>
+        <div class="container">
+            <div class="contacto-info">
+                <img src="direccion.png" alt="Dirección">
+                <div>
+                    <p>Dirección: Calle Principal, Ciudad</p>
+                    <p>Teléfono: +123456789</p>
+                    <p>Email: info@example.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
